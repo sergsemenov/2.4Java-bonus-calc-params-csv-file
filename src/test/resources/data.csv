@@ -1,0 +1,5 @@
+# case, price, registration, expected result
+"registered user, bonus below limit",100060,true,30
+"registered user, bonus above limit",100000060,true,500
+"unregistered user, bonus below limit",100060,false,10
+"unregistered user, bonus above limit",100000060,false,500
